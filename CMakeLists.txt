@@ -3,4 +3,5 @@ project(pingpong)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(pingpong main.cpp)
+add_executable(client client.cpp)
+add_executable(sever server.cpp)
