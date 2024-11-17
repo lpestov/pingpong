@@ -61,7 +61,7 @@ int main(int argc, char *argv[]) {
     int sent_packets = 0;
     // Основной цикл отправки и получения сообщений
     int conn = connect(sock, (struct sockaddr *)&serv_addr, sizeof(serv_addr));
-    while (infinite || sent_packets < num_packets || stop) {
+    while (!stop && (infinite || sent_packets < num_packets)) {
         sent_packets += 1;
 
         // Подключение к серверу
