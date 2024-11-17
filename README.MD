@@ -125,4 +125,4 @@ g++ server.cpp -o server
 
 ## Лицензия
 
-Этот репозиторий распространяется под лицензией MIT. Подробнее см. в файле [LICENSE](https://github.com/lpestov/pingpong/blob/master/LICENSE).
+Этот репозиторий распространяется под лицензией MIT. Подробнее см. в файле [LICENSE](https://github.com/lpestov/pingpong/blob/master/LICENSE.MD).
