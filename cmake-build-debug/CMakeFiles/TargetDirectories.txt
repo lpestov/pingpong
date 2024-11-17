@@ -1,4 +1,4 @@
-/mnt/d/Prog/Projects/PingPong/cmake-build-debug/CMakeFiles/client.dir
-/mnt/d/Prog/Projects/PingPong/cmake-build-debug/CMakeFiles/sever.dir
-/mnt/d/Prog/Projects/PingPong/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/d/Prog/Projects/PingPong/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/leo/CLionProjects/pingpong/cmake-build-debug/CMakeFiles/client.dir
+/home/leo/CLionProjects/pingpong/cmake-build-debug/CMakeFiles/sever.dir
+/home/leo/CLionProjects/pingpong/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/leo/CLionProjects/pingpong/cmake-build-debug/CMakeFiles/rebuild_cache.dir

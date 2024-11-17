@@ -41,49 +41,94 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/leo/CLionProjects/pingpong/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target pingpong
+# Object build statements for EXECUTABLE target client
 
 
 #############################################
-# Order-only phony target for pingpong
+# Order-only phony target for client
 
-build cmake_object_order_depends_target_pingpong: phony || .
+build cmake_object_order_depends_target_client: phony || .
 
-build CMakeFiles/pingpong.dir/main.cpp.o.ddi: CXX_SCAN__pingpong_Debug /home/leo/CLionProjects/pingpong/main.cpp || cmake_object_order_depends_target_pingpong
-  DEP_FILE = CMakeFiles/pingpong.dir/main.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/pingpong.dir/main.cpp.o.ddi
+build CMakeFiles/client.dir/client.cpp.o.ddi: CXX_SCAN__client_Debug /home/leo/CLionProjects/pingpong/client.cpp || cmake_object_order_depends_target_client
+  DEP_FILE = CMakeFiles/client.dir/client.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/client.dir/client.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/pingpong.dir/main.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/pingpong.dir/main.cpp.o.ddi.i
+  OBJ_FILE = CMakeFiles/client.dir/client.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/client.dir/client.cpp.o.ddi.i
 
-build CMakeFiles/pingpong.dir/main.cpp.o: CXX_COMPILER__pingpong_scanned_Debug /home/leo/CLionProjects/pingpong/main.cpp | CMakeFiles/pingpong.dir/main.cpp.o.modmap || cmake_object_order_depends_target_pingpong CMakeFiles/pingpong.dir/CXX.dd
-  DEP_FILE = CMakeFiles/pingpong.dir/main.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/pingpong.dir/main.cpp.o.modmap
+build CMakeFiles/client.dir/client.cpp.o: CXX_COMPILER__client_scanned_Debug /home/leo/CLionProjects/pingpong/client.cpp | CMakeFiles/client.dir/client.cpp.o.modmap || cmake_object_order_depends_target_client CMakeFiles/client.dir/CXX.dd
+  DEP_FILE = CMakeFiles/client.dir/client.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/client.dir/client.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/pingpong.dir
-  OBJECT_FILE_DIR = CMakeFiles/pingpong.dir
-  TARGET_COMPILE_PDB = CMakeFiles/pingpong.dir/
-  TARGET_PDB = pingpong.pdb
-  dyndep = CMakeFiles/pingpong.dir/CXX.dd
+  OBJECT_DIR = CMakeFiles/client.dir
+  OBJECT_FILE_DIR = CMakeFiles/client.dir
+  TARGET_COMPILE_PDB = CMakeFiles/client.dir/
+  TARGET_PDB = client.pdb
+  dyndep = CMakeFiles/client.dir/CXX.dd
 
-build CMakeFiles/pingpong.dir/CXX.dd | /home/leo/CLionProjects/pingpong/cmake-build-debug/CMakeFiles/pingpong.dir/CXXModules.json CMakeFiles/pingpong.dir/main.cpp.o.modmap: CXX_DYNDEP__pingpong_Debug CMakeFiles/pingpong.dir/main.cpp.o.ddi | /home/leo/CLionProjects/pingpong/cmake-build-debug/CMakeFiles/pingpong.dir/CXXDependInfo.json
+build CMakeFiles/client.dir/CXX.dd | /home/leo/CLionProjects/pingpong/cmake-build-debug/CMakeFiles/client.dir/CXXModules.json CMakeFiles/client.dir/client.cpp.o.modmap: CXX_DYNDEP__client_Debug CMakeFiles/client.dir/client.cpp.o.ddi | /home/leo/CLionProjects/pingpong/cmake-build-debug/CMakeFiles/client.dir/CXXDependInfo.json
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target pingpong
+# Link build statements for EXECUTABLE target client
 
 
 #############################################
-# Link the executable pingpong
+# Link the executable client
 
-build pingpong: CXX_EXECUTABLE_LINKER__pingpong_Debug CMakeFiles/pingpong.dir/main.cpp.o
+build client: CXX_EXECUTABLE_LINKER__client_Debug CMakeFiles/client.dir/client.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/pingpong.dir
+  OBJECT_DIR = CMakeFiles/client.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/pingpong.dir/
-  TARGET_FILE = pingpong
-  TARGET_PDB = pingpong.pdb
+  TARGET_COMPILE_PDB = CMakeFiles/client.dir/
+  TARGET_FILE = client
+  TARGET_PDB = client.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sever
+
+
+#############################################
+# Order-only phony target for sever
+
+build cmake_object_order_depends_target_sever: phony || .
+
+build CMakeFiles/sever.dir/server.cpp.o.ddi: CXX_SCAN__sever_Debug /home/leo/CLionProjects/pingpong/server.cpp || cmake_object_order_depends_target_sever
+  DEP_FILE = CMakeFiles/sever.dir/server.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/sever.dir/server.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles/sever.dir/server.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/sever.dir/server.cpp.o.ddi.i
+
+build CMakeFiles/sever.dir/server.cpp.o: CXX_COMPILER__sever_scanned_Debug /home/leo/CLionProjects/pingpong/server.cpp | CMakeFiles/sever.dir/server.cpp.o.modmap || cmake_object_order_depends_target_sever CMakeFiles/sever.dir/CXX.dd
+  DEP_FILE = CMakeFiles/sever.dir/server.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/sever.dir/server.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/sever.dir
+  OBJECT_FILE_DIR = CMakeFiles/sever.dir
+  TARGET_COMPILE_PDB = CMakeFiles/sever.dir/
+  TARGET_PDB = sever.pdb
+  dyndep = CMakeFiles/sever.dir/CXX.dd
+
+build CMakeFiles/sever.dir/CXX.dd | /home/leo/CLionProjects/pingpong/cmake-build-debug/CMakeFiles/sever.dir/CXXModules.json CMakeFiles/sever.dir/server.cpp.o.modmap: CXX_DYNDEP__sever_Debug CMakeFiles/sever.dir/server.cpp.o.ddi | /home/leo/CLionProjects/pingpong/cmake-build-debug/CMakeFiles/sever.dir/CXXDependInfo.json
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sever
+
+
+#############################################
+# Link the executable sever
+
+build sever: CXX_EXECUTABLE_LINKER__sever_Debug CMakeFiles/sever.dir/server.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/sever.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/sever.dir/
+  TARGET_FILE = sever
+  TARGET_PDB = sever.pdb
 
 
 #############################################
@@ -119,7 +164,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/leo/CLionProjects/pingpong/cmake-build-debug
 
-build all: phony pingpong
+build all: phony client sever
 
 # =============================================================================
 # Built-in targets
