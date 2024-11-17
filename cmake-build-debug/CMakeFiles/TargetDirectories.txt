@@ -1,0 +1,3 @@
+/home/leo/CLionProjects/pingpong/cmake-build-debug/CMakeFiles/pingpong.dir
+/home/leo/CLionProjects/pingpong/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/leo/CLionProjects/pingpong/cmake-build-debug/CMakeFiles/rebuild_cache.dir
