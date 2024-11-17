@@ -88,11 +88,11 @@ int main(int argc, char *argv[]) {
                 }
             }
             else if (bytes_read == 0) {
-                std::cout << "Сервер закрыл соединение" << std::endl;
+                std::cout << "Сервер закрыл соединение..." << std::endl;
                 break;
             }
             else {
-                std::cerr << "Read failed" << std::endl;
+                std::cerr << "Не удалось получить ответ от сервера" << std::endl;
                 break;
             }
         }
